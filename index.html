@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <main>
+      <div class="box1">
+            <h2>From:</h2>
+            <div class="fromMenu">
+             <input type="number" value="" id="convertedFrom">
+             <select id="fromUnits"> 
+               <!-- <option value="metre">metre</option>
+                <option value="centimetre">centimetre</option>
+                <option value="kilometre">Kilometre</option>
+                <option value="foot">foot</option>
+                <option value="inch">inch</option> -->
+             </select>
+            </div>
+      </div>  
+
+      <div class="box2">
+            <h2>To:</h2>
+            <div class="toMenu">
+            <input type="number" value='' id="convertedTo">
+                <select id="toUnits" >
+                <!-- <option value="metre">metre</option>
+                <option value="centimetre">centimetre</option>
+                <option value="kilometre">kilometre</option>
+                <option value="foot">foot</option>
+                <option value="inch">inch</option> -->
+                </select>
+            </div>
+      </div>
+
+      <div>
+        <button id="convert">Convert</button>
+      </div>
+
+      <aside>
+            <h1>Quantity:</h1>
+            <select id="category">
+                <option value="length">Length</option>
+                <option value="mass">Mass</option>
+                <option value="temperature">Temperature</option>
+                <option value="time">Time</option>
+            </select>
+      </aside>
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
